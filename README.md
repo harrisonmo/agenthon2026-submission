@@ -1,8 +1,8 @@
 # Agenthon 2026 submission
 
-Prepared release: `ghcr.io/harrisonmo/agenthon2026-submission:v0.28.2`
+Submitted release: `ghcr.io/harrisonmo/agenthon2026-submission:v0.28.2`
 
-Immutable digest: `sha256:a0a25005ad8e57df79232970cece43e5917b61e4a567d0be733d99acccfaf54f`. Anonymous pull and image identity verified. Prepared on 2026-09-20; this release has not been submitted to CodaBench.
+Immutable digest: `sha256:a0a25005ad8e57df79232970cece43e5917b61e4a567d0be733d99acccfaf54f`. Anonymous pull and image identity verified. Submitted on 2026-09-20 as **935884**; last observed status **Submitting**, score pending.
 
 This stability release explicitly disables model thinking, excludes directory mentions from required files, and preserves structurally complete outputs when a known budget/deadline limit is reached. Missing-output failures remain failures. Final-image validation: 50 regression tests, one proxy/CLI fixture and 11 synthetic protocol scenarios. Real House-model effectiveness remains to be measured.
 
