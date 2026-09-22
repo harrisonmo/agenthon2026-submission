@@ -3,6 +3,8 @@
   "image_reference": "ghcr.io/harrisonmo/agenthon2026-submission@sha256:6c8622ad43f2b0c87ebe40f0b3d0e776e532047d05f1634c30bab1317e1e5eb1",
   "image_id": "sha256:8a9b78047c906af1a68e8678aba056cc26fe4ec1e5ef87919be96e34a187ca87",
   "anonymous_pull_verified": true,
-  "platform_submitted": false,
-  "checked_at": "2026-09-22T04:25:38.182913+00:00"
+  "platform_submitted": true,
+  "checked_at": "2026-09-22T04:25:38.182913+00:00",
+  "submission_id": 938770,
+  "observed_status": "Submitting"
 }

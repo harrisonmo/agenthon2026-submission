@@ -1,6 +1,6 @@
 # Agenthon 2026 submission
 
-Current published candidate: `ghcr.io/harrisonmo/agenthon2026-submission:v0.29.4` (not yet submitted to Codabench).
+Current published candidate: `ghcr.io/harrisonmo/agenthon2026-submission:v0.29.4` (submitted to Codabench as **938770** on 2026-09-22; observed **Submitting**, score pending).
 
 Immutable reference: `ghcr.io/harrisonmo/agenthon2026-submission@sha256:6c8622ad43f2b0c87ebe40f0b3d0e776e532047d05f1634c30bab1317e1e5eb1`
 
