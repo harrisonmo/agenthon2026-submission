@@ -1,0 +1,23 @@
+{
+  "version": "v0.29.5",
+  "image": "ghcr.io/harrisonmo/agenthon2026-submission@sha256:f7cf827531fb15440abf09d2463e358046a4084acff2b15a3d6dfe40059f5fc6",
+  "license": "Apache-2.0",
+  "interface_version": "2.0",
+  "platform": "linux/amd64",
+  "submission_id": 940283,
+  "status": "Submitting",
+  "score": null,
+  "changes": "Retains v0.29.4 solver/output behavior and default House thinking; removes withdrawn default cumulative input-token cap.",
+  "validation": {
+    "unit_tests": 87,
+    "synthetic_http": true,
+    "constrained_public_unit_replay_smoke": true,
+    "all_layer_audit": true,
+    "anonymous_digest_pull": true
+  },
+  "limitations": [
+    "No new live House performance claim",
+    "Replay is not a new model solve",
+    "Anonymous pull may reuse cached layers"
+  ]
+}
