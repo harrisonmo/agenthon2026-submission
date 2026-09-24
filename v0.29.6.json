@@ -1,0 +1,10 @@
+{
+  "version": "v0.29.6",
+  "license": "Apache-2.0",
+  "image_reference": "ghcr.io/harrisonmo/agenthon2026-submission@sha256:26c8040d65bca885518669848d6cf84930733022809ab1aef52e210a77d20ea3",
+  "image_id": "sha256:cc25df685fc10cfe82f7e476ed5d8e0aa64d496c4ba810a80f84a6fbab87af2a",
+  "submission_id": 943024,
+  "status": "Submitting",
+  "score": null,
+  "change": "Remove complete explicit leading thinking blocks before action parsing; default thinking remains enabled."
+}
