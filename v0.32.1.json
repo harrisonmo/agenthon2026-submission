@@ -1,0 +1,10 @@
+{
+  "version": "v0.32.1",
+  "license": "Apache-2.0",
+  "image_reference": "ghcr.io/harrisonmo/agenthon2026-submission@sha256:43c18220558ffd17917c9202ebcc13e7f99995ae2fd2eaf56ba36e194e082efc",
+  "image_id": "sha256:d652974e1bee4e8160a8c17062c0f2112328c0e92ca18b819c2e7416bef98374",
+  "submission_id": 945644,
+  "status": "Submitting",
+  "score": null,
+  "change": "v0.29.6 runtime plus public JSON template validation; one structural repair review with budget reserve."
+}

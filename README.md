@@ -1,19 +1,20 @@
 # Agenthon 2026 submission
 
-Current release: `ghcr.io/harrisonmo/agenthon2026-submission:v0.29.6`
+Current release: `ghcr.io/harrisonmo/agenthon2026-submission:v0.32.1`
 
-Immutable reference: `ghcr.io/harrisonmo/agenthon2026-submission@sha256:26c8040d65bca885518669848d6cf84930733022809ab1aef52e210a77d20ea3`
+Immutable reference: `ghcr.io/harrisonmo/agenthon2026-submission@sha256:43c18220558ffd17917c9202ebcc13e7f99995ae2fd2eaf56ba36e194e082efc`
 
-Submitted as **943024**, 2026-09-24 09:51 GMT-4. Observed **Submitting**; score pending.
+Submitted as **945644**, 2026-09-25 22:12 GMT-4. Observed **Submitting**; score pending.
 
-Apache-2.0, Python 3.13, Polars 1.39.3, linux/amd64, interface2.0. Based on v0.29.5; only behavioral change removes complete explicit leading thinking blocks before final-action parsing. Server-default thinking stays enabled. Truncated or incomplete responses remain rejected. Same solver prompt, output checks,25 requests and4000 output tokens/request. No v0.30-v0.32 solver changes.
+Apache-2.0, Python 3.13, Polars 1.39.3, linux/amd64, interface2.0. v0.29.6 official runtime plus public JSON template checks and one structural repair review when budget permits. Advisory false/error values alone do not trigger review. Same server-default thinking, 25 requests and 4000 output tokens/request.
 
-96 tests, HTTP/proxy fixtures, resource-constrained public-unit action replay with thinking wrappers followed by official smoke, full-layer audit and anonymous digest pull passed. These are interface/replay checks, not proof of House-model performance or resolution of previous failures. Anonymous pulls may reuse local layers.
+112 tests, HTTP/proxy fixtures, constrained public-unit replay and official smoke, full-layer audit and anonymous digest pull passed. All 15 previously correct artifacts retained in 32-artifact replay. No new local live model solves; House accuracy remains unproven. Anonymous pulls may reuse local layers.
 
 ## Prior submissions
 
 | Version | Submission | Observed status | Score |
 |---|---|---|---|
+| v0.29.6 | 943024 | Finished | 0.1977 (17/86) |
 | v0.29.5 | 940283 | Finished | 0.1744 (15/86) |
 | v0.29.4 | 938770 | Failed | unavailable |
 | v0.28.2 | 935884 | Finished | 0.0575 |
